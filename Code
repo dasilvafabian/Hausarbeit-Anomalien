@@ -1,0 +1,14 @@
+# Import aller wichtigen Bibliotheken für das Projekt
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+import tensorflow as tf
+from tensorflow import keras
+from keras.layers import Input, Dense
+from keras.models import Model
+
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
+from sklearn.metrics import mean_squared_error
